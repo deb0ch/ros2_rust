@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "rclrs",
+    "rclrs_common",
+    "rclrs_examples",
+]
