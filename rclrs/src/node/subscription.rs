@@ -56,6 +56,7 @@ pub trait SubscriptionBase {
                 handle as *const _,
                 message_handle as *mut _,
                 std::ptr::null_mut(),
+                std::ptr::null_mut(),
             )
         };
 
@@ -128,6 +129,7 @@ where
             rcl_take(
                 handle as *const _,
                 message_handle as *mut _,
+                std::ptr::null_mut(),
                 std::ptr::null_mut(),
             )
         };
